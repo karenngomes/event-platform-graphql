@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+/* @tailwind utilities; */
 
 body {
     @apply bg-zinc-900 text-zinc-100;
@@ -9,3 +9,16 @@ body {
 .title {
     @apply text-5xl font-bold text-violet-500;
 }
+
+/*
+// CMS = Content Management System
+// Wordpress: traz tanto o painel de ADMIN tanto quanto a parte visual do front-end (temas)
+// Headless CMS (GraphCMS): Painel de ADMIN (dados fornecidos através de uma API REST ou GRAPHQL)
+// React que consome essa API do CMS
+
+
+// GraphQL: query / mutation
+// Todos os métodos são do tipo POST
+// query = buscar dados
+// mutation = criar, alterar ou deletar dados 
+*/

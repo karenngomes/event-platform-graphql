@@ -1,3 +1,5 @@
+import { CheckCircle } from "phosphor-react";
+
 export function Lesson() {
     return (
         <a href="#">
@@ -7,7 +9,8 @@ export function Lesson() {
 
             <div className="rounded border border-gray-500 p-4 mt-2">
                 <header className="flex items-center justify-between">
-                    <span className="text-sm text-blue-500 font-medium">
+                    <span className="text-sm text-blue-500 font-medium flex gap-2 items-center">
+                        <CheckCircle size={20} /> 
                         Conteúdo liberado
                     </span>
                     <span className="text-sm rounded px-2 py-[0.125rem] text-white border border-green-300 font-bold">
